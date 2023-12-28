@@ -12,7 +12,8 @@ manifest:
     - name: zmk
       remote: c3smonkey
 #      revision: rubber_duck_widgets
-      revision: vim_widgets
+#      revision: vim_widget
+      revision: vim_leftside_widgets
       import: app/west.yml
   self:
     path: config

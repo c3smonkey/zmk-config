@@ -90,13 +90,13 @@
         };
 
         L_bracket {
-            bindings = <&kp LS(LEFT_BRACKET)>;
-            key-positions = <19 31>;
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <19 7>;
         };
 
         R_bracket {
-            bindings = <&kp LS(RIGHT_BRACKET)>;
-            key-positions = <20 32>;
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <20 8>;
         };
     };
 

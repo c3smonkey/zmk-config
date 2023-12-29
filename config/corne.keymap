@@ -86,6 +86,7 @@
         R_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <32 20>;
+            layers = <0>;
         };
 
         L_bracket {

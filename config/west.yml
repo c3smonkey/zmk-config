@@ -11,7 +11,7 @@ manifest:
   projects:
     - name: zmk
       remote: c3smonkey
-      revision: vim_widgets
+      revision: animated_widgets
       import: app/west.yml
   self:
     path: config

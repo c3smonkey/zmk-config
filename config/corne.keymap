@@ -29,74 +29,74 @@
 
     combos {
         compatible = "zmk,combos";
-
-        buetooth-0 {
+		/*
+		  KEY POSITIONS
+		  ╭────────────────────────╮  ╭────────────────────────╮
+		  │ 0   1   2   3   4   5  │  │ 6   7   8   9   10  11 │
+		  │ 12  13  14  15  16  17 │  │ 18  19  20  21  22  23 │
+		  │ 24  25  26  27  28  29 │  │ 30  31  32  33  34  35 │
+		  ╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
+					  ╰────────────╯  ╰────────────╯
+		*/
+        combos_bluetooth-0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <1 13>;
             layers = <2>;
         };
 
-        bluetooth-2 {
+        combos_bluetooth-2 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <14 2>;
             layers = <2>;
         };
 
-        buetooth-3 {
+        combos_bluetooth-3 {
             bindings = <&bt BT_SEL 2>;
             key-positions = <15 3>;
             layers = <2>;
         };
 
-        bluetooth-4 {
+        combos_bluetooth-4 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <4 16>;
             layers = <2>;
         };
 
-        bluetooth-5 {
+        combos_bluetooth-5 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <5 17>;
             layers = <2>;
         };
 
-        bluetooth-clear {
+        combos_bluetooth-clear {
             bindings = <&bt BT_CLR>;
             key-positions = <2 3>;
             layers = <2>;
         };
 
-        L_paranthesis {
-            bindings = <&kp LEFT_PARENTHESIS>;
+
+        combos_lpar {
+            bindings = <&kp LPAR>; 			// (
             key-positions = <16 28>;
             layers = <0>;
         };
 
-        R_paranthesis {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+        combos_rpar {
+            bindings = <&kp RPAR>;			// )
             key-positions = <17 29>;
             layers = <0>;
         };
 
-        L_brace {
-            bindings = <&kp LEFT_BRACE>;
+        combos_lbkt {
+            bindings = <&kp LBKT>; 			// [ and {
             key-positions = <19 31>;
-        };
-
-        R_brace {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <32 20>;
             layers = <0>;
         };
 
-        L_bracket {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <19 7>;
-        };
-
-        R_bracket {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <20 8>;
+        combos_rbkt {
+            bindings = <&kp RBKT>;			// ] and }
+            key-positions = <20 32>;
+            layers = <0>;
         };
     };
 

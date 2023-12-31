@@ -38,6 +38,9 @@
 		  ╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
 					  ╰────────────╯  ╰────────────╯
 		*/
+
+
+		// LEFT SIDE
         combos_bluetooth-0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <1 13>;
@@ -84,6 +87,20 @@
         combos_rpar {
             bindings = <&kp RPAR>;			// )
             key-positions = <17 29>;
+            layers = <0>;
+        };
+
+		// RIGHT SIDE
+
+        combos_minus {
+            bindings = <&kp MINUS>; 			// - and _
+            key-positions = <7 19>;
+            layers = <0>;
+        };
+
+        combos_equal {
+            bindings = <&kp EQUAL>; 			// = and +
+            key-positions = <8 20>;
             layers = <0>;
         };
 

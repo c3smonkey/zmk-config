@@ -129,13 +129,13 @@
             >;
         };
 
-        layer_number {
-            label = "Number";
+        NumSymbol_Layer {
+            label = "Number / Symbol";
             bindings = <
-&trans  &kp EXCL      &kp AT       &kp HASH     &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTERISK    &kp LPAR       &kp RPAR                &kp BSLH
-&trans  &kp N1        &kp N2       &kp N3       &kp N4    &kp N5       &kp MINUS  &kp EQUAL  &kp GRAVE       &kp LBRC       &kp RBRC                &kp PIPE
-&trans  &mt LCTRL N6  &mt LALT N7  &mt LCMD N8  &kp N9    &kp N0       &kp UNDER  &kp PLUS   &mt RCMD TILDE  &mt RALT LBKT  &mt RIGHT_CONTROL RBKT  &kp RSHFT
-                                   &trans       &trans    &trans       &trans     &trans     &trans
+&trans  &kp N1      &kp N2    &kp N3    &kp N4    &kp N5       &kp N6         &kp N7     &kp N8     &kp N9          &kp N0        &trans
+&trans  &kp DOLLAR  &kp PLUS  &kp LPAR  &kp RPAR  &kp AT       &kp PIPE       &kp MINUS  &kp EQUAL  &kp UNDERSCORE  &kp ASTERISK  &trans
+&trans  &kp EXCL    &kp HASH  &kp LBRC  &kp RBRC  &kp TILDE    &kp AMPERSAND  &kp LBKT   &kp RBKT   &kp PERCENT     &kp GRAVE     &trans
+                              &trans    &trans    &trans       &trans         &trans     &trans
             >;
         };
 

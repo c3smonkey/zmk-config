@@ -39,81 +39,162 @@
 		  ╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
 					  ╰────────────╯  ╰────────────╯
 		*/
-        // LEFT SIDE
+        // LEFT SIDE LAYER
 
-        combos_bluetooth-0 {
+        // !
+        combos_excl {
+             bindings = <&kp EXCL>;
+             key-positions = <1 13>;
+             layers = <0>;
+        };
+
+        // @
+        combos_at {
+             bindings = <&kp AT>;
+             key-positions = <2 14>;
+             layers = <0>;
+        };
+
+        // #
+        combos_hash {
+             bindings = <&kp HASH>;
+             key-positions = <3 15>;
+             layers = <0>;
+        };
+
+        // $
+        combos_dollar {
+             bindings = <&kp DOLLAR>;
+             key-positions = <4 16>;
+             layers = <0>;
+        };
+
+        // %
+        combos_percent {
+             bindings = <&kp PERCENT>;
+             key-positions = <5 17>;
+             layers = <0>;
+        };
+
+        // ^
+        combos_caret {
+             bindings = <&kp CARET>;
+             key-positions = <13 25>;
+             layers = <0>;
+        };
+
+        // &
+        combos_ampersand {
+             bindings = <&kp AMPERSAND>;
+             key-positions = <14 26>;
+             layers = <0>;
+        };
+
+        // *
+        combos_star {
+             bindings = <&kp STAR>;
+             key-positions = <15 27>;
+             layers = <0>;
+        };
+
+
+       // (
+       combos_lpar {
+            bindings = <&kp LPAR>;
+            key-positions = <16 28>;
+            layers = <0>;
+       };
+
+       // )
+       combos_rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <17 29>;
+            layers = <0>;
+       };
+
+       // RIGHT SIDE
+
+       // - and _
+       combos_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <7 19>;
+            layers = <0>;
+       };
+
+       // = and +
+       combos_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <8 20>;
+            layers = <0>;
+       };
+
+       // : and ;
+       combos_semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <9 21>;
+            layers = <0>;
+       };
+
+       // [ and {
+       combos_lbkt {
+            bindings = <&kp LBKT>;
+            key-positions = <19 31>;
+            layers = <0>;
+       };
+
+       // ] and }
+       combos_rbkt {
+            bindings = <&kp RBKT>;
+            key-positions = <20 32>;
+            layers = <0>;
+       };
+
+       // \ and |
+       combos_backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <21 33>;
+            layers = <0>;
+       };
+
+
+
+
+       combos_bluetooth-0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <1 13>;
             layers = <2>;
-        };
+       };
 
-        combos_bluetooth-2 {
+       combos_bluetooth-2 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <14 2>;
             layers = <2>;
-        };
+       };
 
-        combos_bluetooth-3 {
+       combos_bluetooth-3 {
             bindings = <&bt BT_SEL 2>;
             key-positions = <15 3>;
             layers = <2>;
-        };
+       };
 
-        combos_bluetooth-4 {
+       combos_bluetooth-4 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <4 16>;
             layers = <2>;
-        };
+       };
 
-        combos_bluetooth-5 {
+       combos_bluetooth-5 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <5 17>;
             layers = <2>;
-        };
+       };
 
-        combos_bluetooth-clear {
+       combos_bluetooth-clear {
             bindings = <&bt BT_CLR>;
             key-positions = <2 3>;
             layers = <2>;
-        };
+       };
 
-        combos_lpar {
-            bindings = <&kp LPAR>; 			// (
-            key-positions = <16 28>;
-            layers = <0>;
-        };
-
-        combos_rpar {
-            bindings = <&kp RPAR>;			// )
-            key-positions = <17 29>;
-            layers = <0>;
-        };
-
-        // RIGHT SIDE
-
-        combos_minus {
-            bindings = <&kp MINUS>; 			// - and _
-            key-positions = <7 19>;
-            layers = <0>;
-        };
-
-        combos_equal {
-            bindings = <&kp EQUAL>; 			// = and +
-            key-positions = <8 20>;
-            layers = <0>;
-        };
-
-        combos_lbkt {
-            bindings = <&kp LBKT>; 			// [ and {
-            key-positions = <19 31>;
-            layers = <0>;
-        };
-
-        combos_rbkt {
-            bindings = <&kp RBKT>;			// ] and }
-            key-positions = <20 32>;
-            layers = <0>;
-        };
     };
 
     keymap {

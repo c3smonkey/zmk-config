@@ -145,7 +145,7 @@
 &trans  &kp C_PREV    &kp C_NEXT   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP    &trans    &trans    &trans    &trans     &trans             &trans
 &trans  &kp F1        &kp F2       &kp F3        &kp F4        &kp F5      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans             &trans
 &trans  &mt LCTRL F6  &mt LALT F7  &mt LCMD F8   &kp F9        &kp F10     &trans    &trans    &kp RCMD  &kp RALT   &kp RIGHT_CONTROL  &trans
-                                   &trans        &trans        &trans      &trans    &trans
+                              &trans    &trans    &trans       &trans         &trans     &trans
             >;
         };
     };

@@ -1,9 +1,9 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  '0':
+  base:
   - [ESC, Q, W, E, R, T, Y, U, I, O, P, '!']
   - [BACKSPACE, A, S, D, F, G, H, J, K, L, ;, ENTER]
-  - - '2'
+  - - function
     - {t: Z, h: LCTRL}
     - {t: X, h: LALT}
     - {t: C, h: LCMD}
@@ -13,15 +13,15 @@ layers:
     - M
     - {t: ',', h: RCMD}
     - {t: ., h: RALT}
-    - {t: /, h: RIGHT CONTROL}
-    - '2'
+    - {t: /, h: RCTRL}
+    - function
   - - TAB
     - {t: SPACE, h: LSHFT}
-    - '1'
-    - '1'
+    - number
+    - number
     - RSHFT
     - '`'
-  '1':
+  number:
   - - {t: ▽, type: trans}
     - '1'
     - '2'
@@ -64,25 +64,14 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  '2':
+  function:
+  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12]
   - - {t: ▽, type: trans}
     - PREV
     - NEXT
     - VOL DN
     - VOL UP
     - PP
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - F1
-    - F2
-    - F3
-    - F4
-    - F5
     - LEFT
     - DOWN
     - UP
@@ -90,16 +79,16 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {type: held}
-    - {t: F6, h: LCTRL}
-    - {t: F7, h: LALT}
-    - {t: F8, h: LCMD}
-    - F9
-    - F10
+    - LCTRL
+    - LALT
+    - LCMD
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - RCMD
     - RALT
-    - RIGHT CONTROL
+    - RCTRL
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -110,67 +99,67 @@ layers:
 combos:
 - p: [1, 13]
   k: '!'
-  l: ['0']
+  l: [base]
 - p: [2, 14]
   k: '@'
-  l: ['0']
+  l: [base]
 - p: [3, 15]
   k: '#'
-  l: ['0']
+  l: [base]
 - p: [4, 16]
   k: $
-  l: ['0']
+  l: [base]
 - p: [5, 17]
   k: '%'
-  l: ['0']
+  l: [base]
 - p: [13, 25]
   k: ^
-  l: ['0']
+  l: [base]
 - p: [14, 26]
   k: '&'
-  l: ['0']
+  l: [base]
 - p: [15, 27]
   k: '*'
-  l: ['0']
+  l: [base]
 - p: [16, 28]
   k: (
-  l: ['0']
+  l: [base]
 - p: [17, 29]
   k: )
-  l: ['0']
+  l: [base]
 - p: [7, 19]
   k: '-'
-  l: ['0']
+  l: [base]
 - p: [8, 20]
   k: '='
-  l: ['0']
+  l: [base]
 - p: [9, 21]
   k: ;
-  l: ['0']
+  l: [base]
 - p: [19, 31]
   k: '['
-  l: ['0']
+  l: [base]
 - p: [20, 32]
   k: ']'
-  l: ['0']
+  l: [base]
 - p: [21, 33]
   k: \
-  l: ['0']
+  l: [base]
 - p: [1, 13]
   k: {t: BT, h: '0'}
-  l: ['2']
+  l: [function]
 - p: [14, 2]
   k: {t: BT, h: '1'}
-  l: ['2']
+  l: [function]
 - p: [15, 3]
   k: {t: BT, h: '2'}
-  l: ['2']
+  l: [function]
 - p: [4, 16]
   k: {t: BT, h: '3'}
-  l: ['2']
+  l: [function]
 - p: [5, 17]
   k: {t: BT, h: '4'}
-  l: ['2']
+  l: [function]
 - p: [2, 3]
   k: BT CLR
-  l: ['2']
+  l: [function]

@@ -5,6 +5,8 @@
 #define DEFAULT 0
 #define Fn 1
 
+#include "custom_behaviors.dtsi"
+
 //#include "behaviors.dtsi"
 //#include "macros.dtsi"
 //#include "combos.dtsi"

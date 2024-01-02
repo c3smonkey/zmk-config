@@ -88,6 +88,21 @@
         }; \
     };
 
+#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS, TERM, QUICKTAP) \
+    / { \
+        combos { \
+            compatible = "zmk,combos"; \
+            combo_ ## NAME { \
+                timeout-ms = <TERM>; \
+                bindings = <BINDINGS>; \
+                key-positions = <KEYPOS>; \
+                layers = <LAYERS>; \
+                require-prior-idle-ms = <QUICKTAP>; \
+                COMBO_HOOK \
+            }; \
+        }; \
+    };
+
 /* ZMK_CONDITIONAL_LAYER */
 
 #define ZMK_CONDITIONAL_LAYER(if_layers, then_layer) \
@@ -157,4 +172,3 @@
     UC_MACRO(name ## _lower, &kp L0 &kp L1 &kp L2 &kp L3) \
     UC_MACRO(name ## _upper, &kp U0 &kp U1 &kp U2 &kp U3) \
     UC_MODMORPH(name, &name ## _lower, &name ## _upper)
-

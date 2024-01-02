@@ -4,5 +4,6 @@
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/german.dtsi"
 #include "../c3s/base.dtsi"
-#include "../c3s/L0_Base_keymap.dtsi"
+#include "../c3s/base_layer_keymap.dtsi"
+#include "../c3s/german_layer_keymap.dtsi"
 

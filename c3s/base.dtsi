@@ -1,3 +1,7 @@
 /* layer and key shortcuts */
 #define ___ &trans
 
+// Layers
+#define L1 0
+#define L2 1
+#define Fn 2

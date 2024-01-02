@@ -46,7 +46,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - {t: '&de_ae_lower', s: '&de_ae_upper'}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}

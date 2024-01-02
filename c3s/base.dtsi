@@ -1,0 +1,16 @@
+// control / command
+#define CTR_CMD LC(LGUI)
+
+// command / shift / control
+#define SFI_CTR_CMD LS(LC(LGUI))
+
+// control / command
+#define CTR_CMD LC(LGUI)
+
+// Layers
+#define XXX &none
+#define ___ &trans
+
+#define L1 0
+#define L2 1
+#define Fn 2

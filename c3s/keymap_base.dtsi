@@ -1,3 +1,9 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+#include "../zmk-nodefree-config/helper.h"
+#include "../zmk-nodefree-config/keypos_def/keypos_36keys.h"
+#include "../zmk-nodefree-config/international_chars/german.dtsi"
 
 // homerow mods
 ZMK_BEHAVIOR(hrm, hold_tap,

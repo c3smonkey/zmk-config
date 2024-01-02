@@ -14,7 +14,7 @@ layers:
     - P
     - {t: ▽, type: trans}
   - [BACKSPACE, A, S, D, F, G, H, J, K, L, '''', ENTER]
-  - - german
+  - - fn
     - Z
     - X
     - C
@@ -32,7 +32,7 @@ layers:
     - {t: ▽, type: trans}
     - ENTER
     - '`'
-  german:
+  fn:
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -75,3 +75,22 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
+combos:
+- p: [1, 2, 3, 4]
+  k: BT CLR
+  l: [fn]
+- p: [1, 13]
+  k: {t: BT, h: '0'}
+  l: [fn]
+- p: [2, 14]
+  k: {t: BT, h: '1'}
+  l: [fn]
+- p: [3, 15]
+  k: {t: BT, h: '2'}
+  l: [fn]
+- p: [4, 16]
+  k: {t: BT, h: '3'}
+  l: [fn]
+- p: [5, 17]
+  k: {t: BT, h: '4'}
+  l: [fn]

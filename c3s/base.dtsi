@@ -3,7 +3,7 @@
 #define XXX &none
 
 #define DEFAULT 0
-#define GER 1
+#define Fn 1
 
 
 

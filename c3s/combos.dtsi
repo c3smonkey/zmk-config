@@ -20,13 +20,6 @@
           ╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
                       ╰────────────╯  ╰────────────╯
         */
-		/* Bluetooth */
-		COMBO(bt_clear, &bt BT_CLR, 1 2 3 4, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-		COMBO(bt_sel_0, &bt BT_SEL 0, 1 13, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-		COMBO(bt_sel_1, &bt BT_SEL 1, 2 14, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-		COMBO(bt_sel_2, &bt BT_SEL 2, 3 15, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-		COMBO(bt_sel_3, &bt BT_SEL 3, 4 16, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-		COMBO(bt_sel_4, &bt BT_SEL 4, 5 17, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
 
    };

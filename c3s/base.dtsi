@@ -1,4 +1,3 @@
 /* layer and key shortcuts */
 #define ___ &trans
-#define DEF 0  // layer shortcuts, must match order in which they are defined below
 

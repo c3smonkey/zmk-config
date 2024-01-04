@@ -2,24 +2,35 @@ layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   base:
   - [ESC, Q, W, E, R, T, Y, U, I, O, P, '!']
-  - [BACKSPACE, A, S, D, F, G, H, J, K, L, ;, ENTER]
+  - - {t: BACKSPACE, s: DELETE}
+    - A
+    - S
+    - D
+    - F
+    - G
+    - H
+    - J
+    - K
+    - L
+    - ;
+    - ENTER
   - - function
     - {t: Z, h: LCTRL}
     - {t: X, h: LALT}
     - {t: C, h: LCMD}
-    - V
+    - {t: V, h: LS(LC(LALT))}
     - B
     - N
-    - M
+    - {t: M, h: LS(LC(LALT))}
     - {t: ',', h: RCMD}
     - {t: ., h: RALT}
     - {t: /, h: RCTRL}
     - function
   - - TAB
     - {t: SPACE, h: LSHFT}
-    - number
-    - number
-    - RSHFT
+    - {t: '&num_dance', h: number}
+    - {t: '&num_dance', h: number}
+    - {t: RSHFT, h: sticky, s: '&caps_word'}
     - '`'
   number:
   - - {t: ▽, type: trans}

@@ -154,6 +154,7 @@ path.combo {
 <g transform="translate(28, 105)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<text x="0" y="-24" class="key shifted">DELETE</text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -221,6 +222,7 @@ path.combo {
 <g transform="translate(252, 147)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">V</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">LS(LC(LALT))</tspan></text>
 </g>
 <g transform="translate(308, 154)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -233,6 +235,7 @@ path.combo {
 <g transform="translate(588, 147)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">LS(LC(LALT))</tspan></text>
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -264,15 +267,19 @@ path.combo {
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">number</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;num_dance</tspan></text>
+<text x="0" y="38" class="key hold">number</text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">number</text>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;num_dance</tspan></text>
+<text x="0" y="38" class="key hold">number</text>
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">RSHFT</text>
+<text x="0" y="24" class="key hold">sticky</text>
+<text x="0" y="-24" class="key shifted"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
 </g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

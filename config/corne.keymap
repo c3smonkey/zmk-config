@@ -1,10 +1,5 @@
-#include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/keys.h>
 #include "../c3s/base.dtsi"
 
-#include "../c3s/behaviors.dtsi"
-#include "../c3s/combos.dtsi"
-#include "../c3s/layer_0.dtsi"
-#include "../c3s/layer_1.dtsi"
-#include "../c3s/layer_2.dtsi"
+#include "../c3s/keymap/layer_0_qwerty.dtsi"
+#include "../c3s/keymap/layer_1_number.dtsi"
+#include "../c3s/keymap/layer_2_function.dtsi"

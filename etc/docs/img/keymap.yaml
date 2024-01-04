@@ -18,10 +18,10 @@ layers:
     - {t: Z, h: LCTRL}
     - {t: X, h: LALT}
     - {t: C, h: LCMD}
-    - {t: V, h: LS(LC(LALT))}
+    - V
     - B
     - N
-    - {t: M, h: LS(LC(LALT))}
+    - M
     - {t: ',', h: RCMD}
     - {t: ., h: RALT}
     - {t: /, h: RCTRL}
@@ -77,7 +77,7 @@ layers:
     - {t: ▽, type: trans}
   function:
   - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12]
-  - - {t: ▽, type: trans}
+  - - POWER
     - PREV
     - NEXT
     - VOL DN
@@ -93,8 +93,8 @@ layers:
     - LCTRL
     - LALT
     - LCMD
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - RG(RS(V))
+    - RG(RS(4))
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - RCMD

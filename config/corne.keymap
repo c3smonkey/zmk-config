@@ -1,5 +1,5 @@
 #include "../c3s/base.dtsi"
 
-#include "../c3s/keymap/layer_0_qwerty.dtsi"
-#include "../c3s/keymap/layer_1_number.dtsi"
-#include "../c3s/keymap/layer_2_function.dtsi"
+#include "../c3s/keymap/L1_qwerty.dtsi"
+#include "../c3s/keymap/L2.dtsi"
+#include "../c3s/keymap/L3.dtsi"

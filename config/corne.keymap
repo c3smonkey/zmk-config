@@ -40,161 +40,170 @@
 					  ╰────────────╯  ╰────────────╯
 		*/
         // LEFT SIDE LAYER
-
         // !
+
         combos_excl {
-             bindings = <&kp EXCL>;
-             key-positions = <1 13>;
-             layers = <0>;
+            bindings = <&kp EXCL>;
+            key-positions = <1 13>;
+            layers = <0>;
         };
 
         // @
+
         combos_at {
-             bindings = <&kp AT>;
-             key-positions = <2 14>;
-             layers = <0>;
+            bindings = <&kp AT>;
+            key-positions = <2 14>;
+            layers = <0>;
         };
 
         // #
+
         combos_hash {
-             bindings = <&kp HASH>;
-             key-positions = <3 15>;
-             layers = <0>;
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+            layers = <0>;
         };
 
         // $
+
         combos_dollar {
-             bindings = <&kp DOLLAR>;
-             key-positions = <4 16>;
-             layers = <0>;
+            bindings = <&kp DOLLAR>;
+            key-positions = <4 16>;
+            layers = <0>;
         };
 
         // %
+
         combos_percent {
-             bindings = <&kp PERCENT>;
-             key-positions = <5 17>;
-             layers = <0>;
+            bindings = <&kp PERCENT>;
+            key-positions = <5 17>;
+            layers = <0>;
         };
 
         // ^
+
         combos_caret {
-             bindings = <&kp CARET>;
-             key-positions = <13 25>;
-             layers = <0>;
+            bindings = <&kp CARET>;
+            key-positions = <13 25>;
+            layers = <0>;
         };
 
         // &
+
         combos_ampersand {
-             bindings = <&kp AMPERSAND>;
-             key-positions = <14 26>;
-             layers = <0>;
+            bindings = <&kp AMPERSAND>;
+            key-positions = <14 26>;
+            layers = <0>;
         };
 
         // *
+
         combos_star {
-             bindings = <&kp STAR>;
-             key-positions = <15 27>;
-             layers = <0>;
+            bindings = <&kp STAR>;
+            key-positions = <15 27>;
+            layers = <0>;
         };
 
+        // (
 
-       // (
-       combos_lpar {
+        combos_lpar {
             bindings = <&kp LPAR>;
             key-positions = <16 28>;
             layers = <0>;
-       };
+        };
 
-       // )
-       combos_rpar {
+        // )
+
+        combos_rpar {
             bindings = <&kp RPAR>;
             key-positions = <17 29>;
             layers = <0>;
-       };
+        };
 
-       // RIGHT SIDE
+        // RIGHT SIDE
+        // - and _
 
-       // - and _
-       combos_minus {
+        combos_minus {
             bindings = <&kp MINUS>;
             key-positions = <7 19>;
             layers = <0>;
-       };
+        };
 
-       // = and +
-       combos_equal {
+        // = and +
+
+        combos_equal {
             bindings = <&kp EQUAL>;
             key-positions = <8 20>;
             layers = <0>;
-       };
+        };
 
-       // : and ;
-       combos_semicolon {
+        // : and ;
+
+        combos_semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <9 21>;
             layers = <0>;
-       };
+        };
 
-       // [ and {
-       combos_lbkt {
+        // [ and {
+
+        combos_lbkt {
             bindings = <&kp LBKT>;
             key-positions = <19 31>;
             layers = <0>;
-       };
+        };
 
-       // ] and }
-       combos_rbkt {
+        // ] and }
+
+        combos_rbkt {
             bindings = <&kp RBKT>;
             key-positions = <20 32>;
             layers = <0>;
-       };
+        };
 
-       // \ and |
-       combos_backslash {
+        // \ and |
+
+        combos_backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <21 33>;
             layers = <0>;
-       };
+        };
 
-
-
-
-       combos_bluetooth-0 {
+        combos_bluetooth-0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <1 13>;
             layers = <2>;
-       };
+        };
 
-       combos_bluetooth-2 {
+        combos_bluetooth-2 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <14 2>;
             layers = <2>;
-       };
+        };
 
-       combos_bluetooth-3 {
+        combos_bluetooth-3 {
             bindings = <&bt BT_SEL 2>;
             key-positions = <15 3>;
             layers = <2>;
-       };
+        };
 
-       combos_bluetooth-4 {
+        combos_bluetooth-4 {
             bindings = <&bt BT_SEL 3>;
             key-positions = <4 16>;
             layers = <2>;
-       };
+        };
 
-       combos_bluetooth-5 {
+        combos_bluetooth-5 {
             bindings = <&bt BT_SEL 4>;
             key-positions = <5 17>;
             layers = <2>;
-       };
+        };
 
-       combos_bluetooth-clear {
+        combos_bluetooth-clear {
             bindings = <&bt BT_CLR>;
             key-positions = <2 3>;
             layers = <2>;
-       };
-
+        };
     };
 
     keymap {
@@ -204,7 +213,7 @@
             label = "Base";
             bindings = <
 &kp ESC        &kp Q        &kp W       &kp E       &kp R            &kp T     &kp Y   &kp U      &kp I           &kp O         &kp P                    &kp EXCLAMATION
-&kp BACKSPACE  &kp A        &kp S       &kp D       &kp F            &kp G     &kp H   &kp J      &kp K           &kp L         &kp SEMI                 &kp ENTER
+&kp BACKSPACE  &kp A        &kp S       &kp D       &kp F            &kp G     &kp H   &kp J      &kp K           &kp L         &kp SQT                  &kp ENTER
 &mo Fn         &mt LCTRL Z  &mt LALT X  &mt LCMD C  &kp V            &kp B     &kp N   &kp M      &mt RCMD COMMA  &mt RALT DOT  &mt RIGHT_CONTROL SLASH  &mo Fn
                                         &kp TAB     &mt LSHFT SPACE  &mo L2    &mo L2  &kp RSHFT  &kp GRAVE
             >;
@@ -226,7 +235,7 @@
 &trans  &kp C_PREV    &kp C_NEXT   &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP    &trans    &trans    &trans    &trans     &trans             &trans
 &trans  &kp F1        &kp F2       &kp F3        &kp F4        &kp F5      &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans             &trans
 &trans  &mt LCTRL F6  &mt LALT F7  &mt LCMD F8   &kp F9        &kp F10     &trans    &trans    &kp RCMD  &kp RALT   &kp RIGHT_CONTROL  &trans
-                              &trans    &trans    &trans       &trans         &trans     &trans
+                                   &trans        &trans        &trans      &trans    &trans    &trans
             >;
         };
     };

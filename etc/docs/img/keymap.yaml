@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  BaseLayer1:
+  Base:
   - [ESC, Q, W, E, R, T, Y, U, I, O, P, ;]
   - - {t: BACKSPACE, s: DELETE}
     - A
@@ -67,7 +67,7 @@ layers:
     - '&'
     - _
     - '%'
-    - '`'
+    - \
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
@@ -110,52 +110,52 @@ layers:
 combos:
 - p: [1, 13]
   k: '!'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [2, 14]
   k: '@'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [3, 15]
   k: '#'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [4, 16]
   k: $
-  l: [BaseLayer1]
+  l: [Base]
 - p: [5, 17]
   k: '%'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [13, 25]
   k: ^
-  l: [BaseLayer1]
+  l: [Base]
 - p: [14, 26]
   k: '&'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [15, 27]
   k: '*'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [16, 28]
   k: (
-  l: [BaseLayer1]
+  l: [Base]
 - p: [17, 29]
   k: )
-  l: [BaseLayer1]
+  l: [Base]
 - p: [7, 19]
   k: '-'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [8, 20]
   k: '='
-  l: [BaseLayer1]
+  l: [Base]
 - p: [9, 21]
   k: ;
-  l: [BaseLayer1]
+  l: [Base]
 - p: [19, 31]
   k: '['
-  l: [BaseLayer1]
+  l: [Base]
 - p: [20, 32]
   k: ']'
-  l: [BaseLayer1]
+  l: [Base]
 - p: [21, 33]
   k: \
-  l: [BaseLayer1]
+  l: [Base]
 - p: [1, 13]
   k: {t: BT, h: '0'}
   l: [L3]

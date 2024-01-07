@@ -32,7 +32,7 @@ layers:
     - '&cmo 1'
     - RSHFT
     - '`'
-  L2:
+  Number:
   - - {t: ▽, type: trans}
     - '1'
     - '2'
@@ -75,7 +75,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-  L3:
+  Function:
   - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12]
   - - POWER
     - PREV
@@ -158,19 +158,19 @@ combos:
   l: [Base]
 - p: [1, 13]
   k: {t: BT, h: '0'}
-  l: [L3]
+  l: [Function]
 - p: [14, 2]
   k: {t: BT, h: '1'}
-  l: [L3]
+  l: [Function]
 - p: [15, 3]
   k: {t: BT, h: '2'}
-  l: [L3]
+  l: [Function]
 - p: [4, 16]
   k: {t: BT, h: '3'}
-  l: [L3]
+  l: [Function]
 - p: [5, 17]
   k: {t: BT, h: '4'}
-  l: [L3]
+  l: [Function]
 - p: [2, 3]
   k: BT CLR
-  l: [L3]
+  l: [Function]

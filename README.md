@@ -4,7 +4,7 @@
 
 [//]: # (# Keymaps)
 [//]: # (![base layer]&#40;etc/docs/img/L0.png&#41;)
-[//]: # (![code_layer]&#40;etc/docs/img/L1.png&#41;)
+i[//]: # (![code_layer]&#40;etc/docs/img/L1.png&#41;)
 [//]: # (![raise_layer]&#40;etc/docs/img/L2.png&#41;)
 [//]: # (![combos bluetooth]&#40;etc/docs/img/COMBO_BLUETOOTH.png&#41;)
 [//]: # (![combos paranthesis]&#40;etc/docs/img/COMBO_PARANTHESIS.png&#41;)

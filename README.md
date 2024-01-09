@@ -2,12 +2,12 @@
 
 ![keymap](etc/docs/img/keymap.svg)
 
-# Keymaps
-![base layer](etc/docs/img/L0.png)
-![code_layer](etc/docs/img/L1.png)
-![raise_layer](etc/docs/img/L2.png)
-![combos bluetooth](etc/docs/img/COMBO_BLUETOOTH.png)
-![combos paranthesis](etc/docs/img/COMBO_PARANTHESIS.png)
+[//]: # (# Keymaps)
+[//]: # (![base layer]&#40;etc/docs/img/L0.png&#41;)
+[//]: # (![code_layer]&#40;etc/docs/img/L1.png&#41;)
+[//]: # (![raise_layer]&#40;etc/docs/img/L2.png&#41;)
+[//]: # (![combos bluetooth]&#40;etc/docs/img/COMBO_BLUETOOTH.png&#41;)
+[//]: # (![combos paranthesis]&#40;etc/docs/img/COMBO_PARANTHESIS.png&#41;)
 
 # Keymap draw
 https://github.com/caksoylar/keymap-drawer#command-line-tool-installation

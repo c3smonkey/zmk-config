@@ -173,7 +173,7 @@
 			key-positions = <9 10>;
 	 		layers = <1>;
 		};
-		combos_media_next` {
+		combos_media_next {
 	 		bindings = <&kp C_NEXT>;
 		 	key-positions = <10 11>;
 			layers = <1>;

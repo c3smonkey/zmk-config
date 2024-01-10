@@ -11,156 +11,173 @@
 		            ╰────────────╯  ╰────────────╯
 		*/
 
+		//
+		//	Left
+		//
 		// !
 		combos_excl {
 			 bindings = <&kp EXCL>;
 			 key-positions = <1 13>;
 			 layers = <0>;
 		};
-
 		// @
 		combos_at {
 			 bindings = <&kp AT>;
 			 key-positions = <2 14>;
 			 layers = <0>;
 		};
-
 		// #
 		combos_hash {
 			 bindings = <&kp HASH>;
 			 key-positions = <3 15>;
 			 layers = <0>;
 		};
-
 		// $
 		combos_dollar {
 			 bindings = <&kp DOLLAR>;
 			 key-positions = <4 16>;
 			 layers = <0>;
 		};
-
 		// %
 		combos_percent {
 			 bindings = <&kp PERCENT>;
 			 key-positions = <5 17>;
 			 layers = <0>;
 		};
-
 		// ^
 		combos_caret {
 			 bindings = <&kp CARET>;
 			 key-positions = <13 25>;
 			 layers = <0>;
 		};
-
 		// &
 		combos_ampersand {
 			 bindings = <&kp AMPERSAND>;
 			 key-positions = <14 26>;
 			 layers = <0>;
 		};
-
 		// *
 		combos_star {
 			 bindings = <&kp STAR>;
 			 key-positions = <15 27>;
 			 layers = <0>;
 		};
-
-
 		// (
 		combos_lpar {
 				bindings = <&kp LPAR>;
 				key-positions = <16 28>;
 				layers = <0>;
 		};
-
 		// )
 		combos_rpar {
 				bindings = <&kp RPAR>;
 				key-positions = <17 29>;
 				layers = <0>;
 		};
-
+		// Bluetooth
+		combos_bluetooth-0 {
+				bindings = <&bt BT_SEL 0>;
+				key-positions = <1 13>;
+				layers = <2>;
+		};
+		combos_bluetooth-2 {
+				bindings = <&bt BT_SEL 1>;
+				key-positions = <14 2>;
+				layers = <2>;
+		};
+		combos_bluetooth-3 {
+				bindings = <&bt BT_SEL 2>;
+				key-positions = <15 3>;
+				layers = <2>;
+		};
+		combos_bluetooth-4 {
+				bindings = <&bt BT_SEL 3>;
+				key-positions = <4 16>;
+				layers = <2>;
+		};
+		combos_bluetooth-5 {
+				bindings = <&bt BT_SEL 4>;
+				key-positions = <5 17>;
+				layers = <2>;
+		};
+		combos_bluetooth-clear {
+				bindings = <&bt BT_CLR>;
+				key-positions = <2 3>;
+				layers = <2>;
+		};
+        //
 		// RIGHT SIDE
-
+		//
+		/*
+		KEY POSITIONS
+		╭────────────────────────╮  ╭────────────────────────╮
+		│ 0   1   2   3   4   5  │  │ 6   7   8   9   10  11 │
+		│ 12  13  14  15  16  17 │  │ 18  19  20  21  22  23 │
+		│ 24  25  26  27  28  29 │  │ 30  31  32  33  34  35 │
+		╰───────────╮ 36  37  38 │  │ 39  40  41 ╭───────────╯
+						╰────────────╯  ╰────────────╯
+		*/
 		// - and _
 		combos_minus {
 				bindings = <&kp MINUS>;
 				key-positions = <7 19>;
 				layers = <0>;
 		};
-
 		// = and +
 		combos_equal {
 				bindings = <&kp EQUAL>;
 				key-positions = <8 20>;
 				layers = <0>;
 		};
-
 		// : and ;
 		combos_semicolon {
 				bindings = <&kp SEMICOLON>;
 				key-positions = <9 21>;
 				layers = <0>;
 		};
-
 		// [ and {
 		combos_lbkt {
 				bindings = <&kp LBKT>;
 				key-positions = <19 31>;
 				layers = <0>;
 		};
-
 		// ] and }
 		combos_rbkt {
 				bindings = <&kp RBKT>;
 				key-positions = <20 32>;
 				layers = <0>;
 		};
-
 		// \ and |
 		combos_backslash {
 				bindings = <&kp BACKSLASH>;
 				key-positions = <21 33>;
 				layers = <0>;
 		};
-
-
-		combos_bluetooth-0 {
-				bindings = <&bt BT_SEL 0>;
-				key-positions = <1 13>;
-				layers = <2>;
+		// Media
+		combos_media_play {
+			bindings = <&kp C_PP>;
+		 	key-positions = <6 7>;
+			layers = <1>;
 		};
-
-		combos_bluetooth-2 {
-				bindings = <&bt BT_SEL 1>;
-				key-positions = <14 2>;
-				layers = <2>;
+		combos_media_volume_down {
+			bindings = <&kp C_VOL_DN>;
+			key-positions = <7 8>;
+	 		layers = <1>;
 		};
-
-		combos_bluetooth-3 {
-				bindings = <&bt BT_SEL 2>;
-				key-positions = <15 3>;
-				layers = <2>;
+		combos_media_volume_up {
+	 		bindings = <&kp C_VOL_UP>;
+		 	key-positions = <8 9>;
+			layers = <1>;
 		};
-
-		combos_bluetooth-4 {
-				bindings = <&bt BT_SEL 3>;
-				key-positions = <4 16>;
-				layers = <2>;
+			combos_media_prev {
+			bindings = <&kp C_PREV>;
+			key-positions = <9 10>;
+	 		layers = <1>;
 		};
-
-		combos_bluetooth-5 {
-				bindings = <&bt BT_SEL 4>;
-				key-positions = <5 17>;
-				layers = <2>;
-		};
-
-		combos_bluetooth-clear {
-				bindings = <&bt BT_CLR>;
-				key-positions = <2 3>;
-				layers = <2>;
+		combos_media_next` {
+	 		bindings = <&kp C_NEXT>;
+		 	key-positions = <10 11>;
+			layers = <1>;
 		};
 	};
 };

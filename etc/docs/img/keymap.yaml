@@ -78,11 +78,11 @@ layers:
   Function:
   - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12]
   - - POWER
-    - PREV
-    - NEXT
-    - VOL DN
-    - VOL UP
-    - PP
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - LEFT
     - DOWN
     - UP
@@ -181,24 +181,6 @@ combos:
 - p: [17, 29]
   k: )
   l: [Base]
-- p: [7, 19]
-  k: '-'
-  l: [Base]
-- p: [8, 20]
-  k: '='
-  l: [Base]
-- p: [9, 21]
-  k: ;
-  l: [Base]
-- p: [19, 31]
-  k: '['
-  l: [Base]
-- p: [20, 32]
-  k: ']'
-  l: [Base]
-- p: [21, 33]
-  k: \
-  l: [Base]
 - p: [1, 13]
   k: {t: BT, h: '0'}
   l: [Function]
@@ -217,3 +199,36 @@ combos:
 - p: [2, 3]
   k: BT CLR
   l: [Function]
+- p: [7, 19]
+  k: '-'
+  l: [Base]
+- p: [8, 20]
+  k: '='
+  l: [Base]
+- p: [9, 21]
+  k: ;
+  l: [Base]
+- p: [19, 31]
+  k: '['
+  l: [Base]
+- p: [20, 32]
+  k: ']'
+  l: [Base]
+- p: [21, 33]
+  k: \
+  l: [Base]
+- p: [6, 7]
+  k: PP
+  l: [Number]
+- p: [7, 8]
+  k: VOL DN
+  l: [Number]
+- p: [8, 9]
+  k: VOL UP
+  l: [Number]
+- p: [9, 10]
+  k: PREV
+  l: [Number]
+- p: [10, 11]
+  k: NEXT
+  l: [Number]

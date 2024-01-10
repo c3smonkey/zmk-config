@@ -168,7 +168,7 @@
 		 	key-positions = <8 9>;
 			layers = <1>;
 		};
-			combos_media_prev {
+		combos_media_prev {
 			bindings = <&kp C_PREV>;
 			key-positions = <9 10>;
 	 		layers = <1>;

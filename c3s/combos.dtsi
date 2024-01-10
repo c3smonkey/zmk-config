@@ -156,27 +156,27 @@
 		combos_media_play {
 			bindings = <&kp C_PP>;
 		 	key-positions = <6 7>;
-			layers = <1>;
+			layers = <2>;
 		};
 		combos_media_volume_down {
 			bindings = <&kp C_VOL_DN>;
 			key-positions = <7 8>;
-	 		layers = <1>;
+	 		layers = <2>;
 		};
 		combos_media_volume_up {
 	 		bindings = <&kp C_VOL_UP>;
 		 	key-positions = <8 9>;
-			layers = <1>;
+			layers = <2>;
 		};
 		combos_media_prev {
 			bindings = <&kp C_PREV>;
 			key-positions = <9 10>;
-	 		layers = <1>;
+	 		layers = <2>;
 		};
 		combos_media_next {
 	 		bindings = <&kp C_NEXT>;
 		 	key-positions = <10 11>;
-			layers = <1>;
+			layers = <2>;
 		};
 	};
 };

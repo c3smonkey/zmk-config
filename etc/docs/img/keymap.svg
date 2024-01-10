@@ -524,30 +524,6 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="546" y="26" width="28" height="26" class="combo"/>
-<text x="560" y="38" class="combo tap">PP</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
-<text x="616" y="32" class="combo tap">
-<tspan x="616" dy="-0.6em">VOL</tspan><tspan x="616" dy="1.2em">DN</tspan>
-</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="658" y="18" width="28" height="26" class="combo"/>
-<text x="672" y="32" class="combo tap">
-<tspan x="672" dy="-0.6em">VOL</tspan><tspan x="672" dy="1.2em">UP</tspan>
-</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
-<text x="728" y="42" class="combo tap">PREV</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
-<text x="784" y="49" class="combo tap">NEXT</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-Function">
@@ -751,6 +727,30 @@ path.combo {
 <text x="168" y="32" class="combo tap">
 <tspan x="168" dy="-0.6em">BT</tspan><tspan x="168" dy="1.2em">CLR</tspan>
 </text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="546" y="26" width="28" height="26" class="combo"/>
+<text x="560" y="38" class="combo tap">PP</text>
+</g>
+<g class="combo combopos-7">
+<rect rx="6" ry="6" x="602" y="18" width="28" height="26" class="combo"/>
+<text x="616" y="32" class="combo tap">
+<tspan x="616" dy="-0.6em">VOL</tspan><tspan x="616" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="658" y="18" width="28" height="26" class="combo"/>
+<text x="672" y="32" class="combo tap">
+<tspan x="672" dy="-0.6em">VOL</tspan><tspan x="672" dy="1.2em">UP</tspan>
+</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="714" y="29" width="28" height="26" class="combo"/>
+<text x="728" y="42" class="combo tap">PREV</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="770" y="36" width="28" height="26" class="combo"/>
+<text x="784" y="49" class="combo tap">NEXT</text>
 </g>
 </g>
 </g>

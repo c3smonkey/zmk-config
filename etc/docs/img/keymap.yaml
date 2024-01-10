@@ -219,16 +219,16 @@ combos:
   l: [Base]
 - p: [6, 7]
   k: PP
-  l: [Number]
+  l: [Function]
 - p: [7, 8]
   k: VOL DN
-  l: [Number]
+  l: [Function]
 - p: [8, 9]
   k: VOL UP
-  l: [Number]
+  l: [Function]
 - p: [9, 10]
   k: PREV
-  l: [Number]
+  l: [Function]
 - p: [10, 11]
   k: NEXT
-  l: [Number]
+  l: [Function]

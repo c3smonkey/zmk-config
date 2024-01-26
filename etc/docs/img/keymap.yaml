@@ -18,7 +18,7 @@ layers:
     - {t: Z, h: LCTRL}
     - {t: X, h: LALT}
     - {t: C, h: LCMD}
-    - V
+    - {t: V, h: LS(LC(LALT))}
     - B
     - N
     - M

@@ -21,7 +21,7 @@ layers:
     - {t: V, h: LS(LC(LALT))}
     - B
     - N
-    - M
+    - {t: M, h: LS(LC(LALT))}
     - {t: ',', h: RCMD}
     - {t: ., h: RALT}
     - {t: /, h: RCTRL}

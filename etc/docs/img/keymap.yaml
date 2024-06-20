@@ -21,7 +21,7 @@ layers:
     - {t: V, h: LS(LC(LALT))}
     - B
     - N
-    - {t: M, h: LS(LC(LALT))}
+    - M
     - {t: ',', h: RCMD}
     - {t: ., h: RALT}
     - {t: /, h: RCTRL}
@@ -34,54 +34,65 @@ layers:
     - '`'
   Number:
   - - {t: ▽, type: trans}
-    - '1'
-    - '2'
-    - '3'
-    - '4'
-    - '5'
-    - '6'
+    - '!'
+    - '@'
+    - '{'
+    - '}'
+    - '|'
+    - +
     - '7'
     - '8'
     - '9'
-    - '0'
-    - {t: ▽, type: trans}
-  - - {t: ▽, type: trans}
-    - (
-    - )
-    - '{'
-    - '}'
-    - '@'
-    - '|'
-    - +
-    - '-'
-    - '='
     - '*'
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - '!'
     - '#'
+    - $
+    - (
+    - )
+    - '`'
+    - '-'
+    - '4'
+    - '5'
+    - '6'
+    - ':'
+    - {t: ▽, type: trans}
+  - - {t: ▽, type: trans}
+    - '%'
+    - ^
     - '['
     - ']'
-    - $
     - '~'
-    - '&'
-    - _
-    - '%'
+    - '='
+    - '1'
+    - '2'
+    - '3'
     - \
-    - '`'
+    - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - '&N0'
   Function:
-  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12]
+  - - {t: ▽, type: trans}
+    - F1
+    - F2
+    - F3
+    - F4
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - PG DN
+    - PG UP
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
   - - POWER
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - F5
+    - F6
+    - F7
+    - F8
     - {t: ▽, type: trans}
     - LEFT
     - DOWN
@@ -90,13 +101,13 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - LCTRL
-    - LALT
-    - LCMD
+    - F9
+    - F10
+    - F11
+    - F12
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - RG(RS(V))
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
     - RCMD
     - RALT
     - RCTRL
@@ -136,7 +147,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - RG(RS(V))
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}

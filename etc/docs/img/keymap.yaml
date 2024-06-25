@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   Base:
-  - [ESC, Q, W, E, R, T, Y, U, I, O, P, ;]
+  - [ESC, Q, W, E, R, T, Y, U, I, O, P, '''']
   - - {t: BACKSPACE, s: DELETE}
     - A
     - S
@@ -12,7 +12,7 @@ layers:
     - J
     - K
     - L
-    - ''''
+    - ;
     - ENTER
   - - '&cmo 2'
     - {t: Z, h: LCTRL}
@@ -74,7 +74,7 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
-    - '&N0'
+    - '0'
   Function:
   - - {t: ▽, type: trans}
     - F1
@@ -82,12 +82,12 @@ layers:
     - F3
     - F4
     - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - PG DN
-    - PG UP
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - HOME
+    - PAGE DOWN
+    - PAGE UP
+    - INSERT
+    - CMENU
+    - END
   - - POWER
     - F5
     - F6

@@ -76,24 +76,13 @@ layers:
     - {t: ▽, type: trans}
     - '0'
   Function:
-  - - {t: ▽, type: trans}
-    - F1
-    - F2
-    - F3
-    - F4
+  - [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12]
+  - - POWER
     - {t: ▽, type: trans}
     - HOME
-    - PAGE DOWN
     - PAGE UP
-    - INSERT
-    - CMENU
+    - PAGE DOWN
     - END
-  - - POWER
-    - F5
-    - F6
-    - F7
-    - F8
-    - {t: ▽, type: trans}
     - LEFT
     - DOWN
     - UP
@@ -101,13 +90,13 @@ layers:
     - {t: ▽, type: trans}
     - {t: ▽, type: trans}
   - - {t: ▽, type: trans}
-    - F9
-    - F10
-    - F11
-    - F12
-    - {t: ▽, type: trans}
-    - {t: ▽, type: trans}
+    - LCTRL
+    - LALT
+    - LCMD
     - RG(RS(V))
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
+    - {t: ▽, type: trans}
     - RCMD
     - RALT
     - RCTRL

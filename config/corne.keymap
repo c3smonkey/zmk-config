@@ -1,6 +1,7 @@
 #include "../c3s/base.dtsi"
 
-#include "../c3s/keymap/L1_qwerty.dtsi"
-#include "../c3s/keymap/L2.dtsi"
-#include "../c3s/keymap/L3.dtsi"
-#include "../c3s/keymap/L4.dtsi"
+//#include "../c3s/keymap/L1_qwerty.dtsi"
+//#include "../c3s/keymap/L2.dtsi"
+//#include "../c3s/keymap/L3.dtsi"
+//#include "../c3s/keymap/L4.dtsi"
+#include "../c3s/keymap/34.dtsi"

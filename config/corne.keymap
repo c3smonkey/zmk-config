@@ -1,6 +1,17 @@
+/*
 #include "../c3s/base.dtsi"
 
 #include "../c3s/keymap/L1_qwerty.dtsi"
 #include "../c3s/keymap/L2.dtsi"
 #include "../c3s/keymap/L3.dtsi"
 #include "../c3s/keymap/L4.dtsi"
+*/
+
+#include "../knucklehead/base.dtsi"
+// Alpha layer: uncomment desired, comment the others
+#include "../knucklehead/L1_qwerty.dtsi"
+
+// Other layers
+#include "../knucklehead/L2.dtsi"
+#include "../knucklehead/L3.dtsi"
+#include "../knucklehead/L4.dtsi"

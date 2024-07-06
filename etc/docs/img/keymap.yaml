@@ -1,7 +1,18 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   '1':
-  - ['$$mdi:keyboard-esc$$', Q, W, E, R, T, Y, U, I, O, P, '$$mdi:close-box$$']
+  - - $$mdi:keyboard-esc$$
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - {t: '`', s: '~'}
   - - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
     - A
     - S
@@ -31,7 +42,7 @@ layers:
     - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
     - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
     - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-    - {t: '`', s: '~'}
+    - $$mdi:close-box$$
   '2':
   - - {t: '$$mdi:transfer$$', type: trans}
     - {t: '1', s: '!'}
